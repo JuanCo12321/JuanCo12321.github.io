@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi UNAL</title>
+<link rel="canonical" href="https://mi-unal.web.app/">
+<script>
+// Mi UNAL se mudó a mi-unal.web.app. Se conservan la página (#/horarios…) y los datos con los que abre Android (?fuente=android&apk=N).
+location.replace('https://mi-unal.web.app/' + (location.search ? location.search + '&' : '?') + 'mudanza=1' + location.hash);
+</script>
+<meta http-equiv="refresh" content="2; url=https://mi-unal.web.app/?mudanza=1">
+<style>body{margin:0;font:16px system-ui,sans-serif;background:#F5F9EE;color:#1E2618;display:grid;place-items:center;min-height:100vh}a{color:#4E7D1F}@media (prefers-color-scheme:dark){body{background:#121510;color:#E8EEDF}a{color:#A9D46F}}</style>
+</head>
+<body><p>Mi UNAL ahora está en <a href="https://mi-unal.web.app/?mudanza=1">mi-unal.web.app</a>…</p></body>
+</html>

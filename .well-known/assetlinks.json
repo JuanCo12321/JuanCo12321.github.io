@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "co.miunal.app",
+      "sha256_cert_fingerprints": ["C8:A7:BA:6D:EC:03:BC:86:BD:AB:E6:F8:AB:0D:9D:E8:02:30:F8:A5:42:A6:3B:5A:DD:74:1B:56:34:AA:55:31"]
+    }
+  }
+]
